@@ -1,0 +1,224 @@
+@font-face {
+  font-family: Montserrat;
+  src: url('../Recursos/font/Montserrat-Regular.ttf');
+}
+@font-face {
+  font-family: Kaushan;
+  src: url('../Recursos/font/KaushanScript-Regular.ttf');
+}
+@font-face {
+  font-family: MontserratLr;
+  src: url('../Recursos/font/Montserrat-ExtraLight.ttf');
+}
+body {
+  background-color: #fff;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Montserrat;
+}
+.main {
+  width: 70%;
+  margin: auto;
+}
+nav {
+  display: flex;
+  width: 100%;
+  padding: 1rem;
+  justify-content: center;
+  align-items: center;
+}
+nav .left-nav ul,
+nav .right-nav ul {
+  display: flex;
+  list-style: none;
+  margin-right: 30px;
+}
+nav .left-nav ul li a,
+nav .right-nav ul li a {
+  color: black;
+  margin: 1rem;
+  text-decoration: none;
+  text-align: center;
+}
+.accent {
+  color: #f7b6c9;
+}
+.logo h2 {
+  font-family: Kaushan;
+}
+header {
+  background-image: url('../Recursos/Untitled-3.jpg');
+  height: 500px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+}
+.space {
+  flex: 1;
+}
+.content {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.content-header {
+  text-align: center;
+  padding: 2rem;
+}
+.content-header h1 {
+  font-family: Kaushan;
+  color: white;
+  font-size: 3rem;
+}
+.content-header h2 {
+  font-family: MontserratLr;
+  font-size: 1.5rem;
+}
+.btn {
+  background-color: #f7b6c9;
+  border: none;
+  border-radius: 5px;
+  padding: 1rem;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4);
+  text-transform: capitalize;
+}
+.btn:hover {
+  cursor: pointer;
+}
+.header-art h3 {
+  text-align: center;
+  font-size: 1.5rem;
+}
+.header-art p {
+  text-align: center;
+  font-size: 1rem;
+  width: 60%;
+  margin: 1.5rem auto;
+}
+.ThreeBest {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Best,
+.Service {
+  margin-top: 3rem;
+}
+.ThreeBest:first-child {
+  margin-left: 0;
+}
+.img {
+  margin-left: 1rem;
+}
+.img img {
+  height: 300px;
+  width: 300px;
+}
+.divide {
+  margin: 3rem 5rem;
+}
+.grid {
+  display: grid;
+  grid-gap: 1rem;
+  grid-template-columns: repeat(3, auto);
+  z-index: 1000;
+  top: 50%;
+  margin-top: 8rem;
+  left: 9%;
+}
+.Box img {
+  width: 22.5vw;
+  height: 22.5vw;
+}
+.more {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.more img {
+  padding: 1rem;
+  width: 70px;
+}
+.Service {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.serv {
+  width: 350px;
+  height: 350px;
+  margin-right: 10px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  border-right: 2px solid #f7b6c9;
+}
+.serv img {
+  width: 120px;
+  height: 120px;
+}
+footer {
+  margin-top: 5rem;
+  padding: 3rem;
+  background-color: #f7b6c9;
+}
+.flex {
+  display: flex;
+}
+.shop {
+  flex: 1;
+}
+.shop ul,
+.hrs ul {
+  list-style: none;
+}
+.shop ul li a,
+.hrs ul li,
+.address p {
+  text-decoration: none;
+  color: grey;
+}
+.shop ul li,
+.hrs ul li {
+  margin: 1rem 0;
+}
+.hrs {
+  flex: 1;
+}
+.address {
+  flex: 2;
+}
+.nes {
+  flex: 1;
+}
+.shop h4,
+.hhrs h4,
+.address h4,
+.nes h4 {
+  color: #35281d;
+}
+.nes input {
+  padding: 1rem;
+  width: 80%;
+  margin: auto;
+  border: 1px solid #3d3d3d;
+  border-radius: 5px;
+}
+.btn-block {
+  background-color: #35281d;
+  border: none;
+  border-radius: 5px;
+  padding: 1rem;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4);
+  text-transform: capitalize;
+  width: 95%;
+  margin: 20px auto;
+  color: white;
+}
