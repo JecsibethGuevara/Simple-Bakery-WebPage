@@ -123,12 +123,120 @@
 .login h1, .signup h1{
   font-family: Kaushan;
 }
+
+
+.who, .elige{
+  margin: 4rem;
+  position: relative;
+}
+
+.whoWe, .choose{
+  width: 40%;
+  border: 2px solid #f7b6c9;
+  background-color: white;
+  padding: 3rem;
+}
+
+.choose{
+  margin: 7rem 0;
+  float: right;
+ 
+}
+
+.choose h1{
+   text-align: right;
+}
+
+.whoWe::after{
+  content: '';
+  width: 50vw;
+  height: 50vh;
+  background-color: #35281d;
+  position: absolute;
+  left: 20%;
+  top: 20%;
+  z-index: -1;
+  background-image: url(../Recursos/pexels-nataliya-vaitkevich-8468311.jpg) ;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.chooser{
+  content: '';
+  width: 50vw;
+  height: 50vh;
+  background-color: #35281d;
+  position: absolute;
+  right: 18%;
+  top: 20%;
+  z-index: -1;
+  background-image: url(../Recursos/pexels-na-urchin-2377173.jpg) ;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.whatDo .title{
+  position: relative;
+}
+.whatDo .title div{
+  text-align: center;
+}
+
+.what{
+  padding: 1.7rem 3rem;
+  display: flex;
+}
+
+.what div{
+  background-color: #f4f4f4;
+  margin:20px;
+  box-shadow: 5px 5px 15px rgba(4, 4, 4, 0.2);
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.space{
+  height: 50px;
+  width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   /* copiado por congruencia */
 
   footer {
     margin-top: 5rem;
     padding: 3rem;
     background-color: #f7b6c9;
+    clear: both;
   }
   .flex {
     display: flex;
@@ -184,3 +292,87 @@
     color: white;
   }
   
+
+
+
+
+  /*media queries*/
+
+
+  @media only screen and (max-width: 992px){
+    .main{
+      width: 90%;
+    }
+    .who, .elige{
+      margin-top: 15rem;
+    }
+
+    .whoWe{
+      margin: auto;
+      width: 60%;
+    }
+    .whoWe::after, .chooser{
+      top: -30%;
+      left: 0;
+      width: 70vw;
+    }
+
+    .choose{
+      float: none;
+      margin: auto;
+      width: 60%;
+    }
+  }
+
+  @media only screen and (max-width: 800px){
+
+   
+   
+    .whoWe::after, .chooser{
+      top: -10%;
+      left: 0;
+      width: 70vw;
+    }
+    .signup{
+          width: 70%;
+    }
+    form{
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-gap: 10px;
+    }
+
+    .signup .inputs input{
+      width: 140px;
+      padding: 1.5rem;
+      border: none;
+      border-radius: 5px;
+      margin-top: 20px;
+    }
+
+    
+.signup .inputs button{
+ display: block;
+  padding: 1.2rem;
+}
+    
+  }
+
+  @media only screen and (max-width: 768px){
+ 
+    .whoWe::after, .chooser{
+      top: -20%;
+      left: 0;
+      width: 70vw;
+    }
+
+    .choose, .whoWe{
+      background-color: rgba(255, 255, 255, 0.7);
+    }
+    
+   
+    
+  }
+
+
+  /*** sm desing */
