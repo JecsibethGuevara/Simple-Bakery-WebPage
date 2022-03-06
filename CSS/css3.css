@@ -206,10 +206,34 @@
   width: 100%;
 }
 
+.ss{
+  height: 50vh;
+  margin: 2rem 0;
+  padding: 3rem;
+ 
+}
+.titulo{
+  text-align: center;
+}
+.contentt{
+  display: flex;
+}
+.contentt img{
+  height: 350px;
+  width: 350px;
+}
 
+.contentt p{
+  padding: 3rem;
+}
 
+.ss:nth-child(even){
+  background-color: #f7b6c9;
+}
 
-
+.ss:nth-child(odd){
+  box-shadow: 5px 5px 10px #d3d3d3;
+}
 
 
 
