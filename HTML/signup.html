@@ -5,108 +5,93 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="../CSS/css3.css">
+    <link rel="stylesheet" href="../CSS/bootstrap-5.0.2-dist/css/bootstrap.css">
 </head>
 <body>
-    <div class="main">
-        <nav>
-            <div class="left-nav">
+    <div class="container">
+        <ul class="nav justify-content-center">
+            
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="Index.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Video.html">Videos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Find.html">Find Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fs-4" href="" tabindex="-1" aria-disabled="true">Joha's Bite</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="AboutUs.html">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="login.html">Login</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="signup.html">Sign Up</a>
+              </li>
+          </ul>
+    </div>
+    <div class="m-5 p-5 mx-auto w-75 border">
+        <h1>Registrarse</h1>
+        <form action="" class="p-4">
+            <div class="form-floating mb-3">
+                <input type="text" class="form-control" id="floatingInput" placeholder="Your Name">
+                <label for="floatingInput">Name</label>
+            </div>
+            <div class="form-floating mb-3">
+                <input type="text" class="form-control" id="floatingPassword" placeholder="DNI">
+                <label for="floatingPassword">DNI</label>
+            </div>
+            <div class="form-floating mb-3">
+                <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                <label for="floatingInput">Email address</label>
+            </div>
+            <div class="form-floating">
+                <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+                <label for="floatingPassword">Password</label>
+            </div>
+              <button class="btn w-100 btn-success mt-3">Ingresar</button>
+        </form>
+    </div>
+    <footer>
+        <div class="w-75 mx-auto p-5" style="background-color: #f7b6c9;">
+            
+            <div class="hrs">
+                <h4 class="fs-5">OPENING HOURS</h4>
                 <ul>
-                    <li><a href="">Shop</a></li>
-                    <li><a href="">Find Us</a></li>
-                    <li><a href="">Commissions</a></li>
+                    <li>Mon-Fri 9am-08pm</li>
+                    <li>Saturday 9am-12pm</li>
+                    <li>Sunday 9am-11am</li>
                 </ul>
             </div>
-            <div class="logo">
-                <h2>Joha <span class="accent">'</span>s Bites</h2>
-            </div>
-            <div class="right-nav">
+            <div class="address p-2 flex-fill">
+                <h4 class="fs-5">ADDRESS</h4>
                 <ul>
-                    <li><a href="Index.html">Inicio</a></li>
-                    <li><a href="Shop.html">Shop</a></li>
-                    <li><a href="Find.html">Find Us</a></li>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, accusamus!</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, accusamus!</p>
+                    <p>Telf. +58-04161530113</p>
                 </ul>
             </div>
-        </nav>
+            <div class="nes">
+                <h4 class="fs-5">NewsLettert</h4>
+                <div class="Animation">
 
-        <div class="containerSignup">
-            <div class="signup">
-                <h1>Registrate</h1>
-                <form action="Index.html">
-                    <div class="inputs">
-                        <input type="text" name="username" placeholder="Nombres" id="">
-                    </div>
-                    <div class="inputs">
-                        <input type="text" name="username" placeholder="Apellidos" id="">
-                    </div>
-                    <div class="inputs">
-                        <input type="text" name="username" placeholder="Documento de Identidad" id="">
-                    </div>
-                    <div class="inputs">
-                        <input type="text" name="username" placeholder="Username" id="">
-                    </div>
-                    <div class="inputs">
-                        <input type="password" name="password" placeholder="Password" id="">
-                        
-                    </div>
-                    <div class="inputs">
-                        <button type="submit" class="btn-send">Iniciar </button>
-                    </div>
-                </form>
-                <div class="others">
-                    <p>Aún no tienes una cuenta? <a href="/signup">Registrate aquí</a></p>
+                </div>
+                <div class="form">
+                    <input class="w-75 mx-auto p-3" type="text">
+                    <button class="btn w-75 mx-auto btn-secondary my-3  btn-block">Suscribete!</button>
+                </div>
+            </div>
+        </div>
+        <div class="rights">
+            <div class="socials">
     
-                </div>
             </div>
+            <div class="socials"></div>
         </div>
-
-        <footer>
-            <div class="flex">
-                <div class="shop">
-                    <h4>SHOP</h4>
-                    <ul>
-                        <li><a href="#">About</a></li>
-                        <li><a href="#">FaQ</a></li>
-                        <li><a href="#">Shop Policy</a></li>
-                        <li><a href="#">Contact Me</a></li>
-                    </ul>
-                </div>
-                <div class="hrs">
-                    <h4>OPENING HOURS</h4>
-                    <ul>
-                        <li>Mon-Fri 9am-08pm</li>
-                        <li>Saturday 9am-12pm</li>
-                        <li>Sunday 9am-11am</li>
-                    </ul>
-                </div>
-                <div class="address">
-                    <h4>ADDRESS</h4>
-                    <ul>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, accusamus!</p>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, accusamus!</p>
-                        <p>Telf. +58-04161530113</p>
-                    </ul>
-                </div>
-                <div class="nes">
-                    <h4>NewsLettert</h4>
-                    <div class="Animation">
-
-                    </div>
-                    <div class="form">
-                        <input type="text">
-                        <button class="btn-block">Suscribete!</button>
-                    </div>
-                </div>
-            </div>
-            <div class="rights">
-                <div class="socials">
-        
-                </div>
-                <div class="socials"></div>
-            </div>
-        </footer>
-        </div>
-
-        
+    </footer>
 </body>
 </html>

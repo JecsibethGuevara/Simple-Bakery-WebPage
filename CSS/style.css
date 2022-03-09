@@ -222,3 +222,76 @@ footer {
   margin: 20px auto;
   color: white;
 }
+/*md*/
+@media screen and (max-width: 992px) {
+  .img img {
+    height: 200px;
+    width: 200px;
+  }
+  .serv {
+    width: 350px;
+    height: 350px;
+    border: none;
+  }
+  .serv img {
+    width: 80px;
+    height: 80px;
+  }
+  .header-art p {
+    width: 80%;
+  }
+  .flex {
+    flex-direction: column;
+  }
+}
+/*sm*/
+@media screen and (max-width: 768px) {
+  .main {
+    width: 90%;
+    margin: auto;
+  }
+  .img img {
+    height: 150px;
+    width: 150px;
+  }
+  nav {
+    display: flex;
+    width: 100%;
+    padding: 0;
+  }
+  nav .left-nav ul,
+  nav .right-nav ul {
+    display: flex;
+    list-style: none;
+    margin-right: 30px;
+  }
+  nav .left-nav ul li a,
+  nav .right-nav ul li a {
+    color: black;
+    margin: 10px;
+    text-decoration: none;
+  }
+  .accent {
+    color: #f7b6c9;
+  }
+  .logo h2 {
+    font-family: Kaushan;
+  }
+}
+@media screen and (max-width: 576px) {
+  .img img {
+    height: 150px;
+    width: 150px;
+  }
+  .grid {
+    display: block;
+  }
+  .Box img {
+    height: 350px;
+    width: 100%;
+    margin: auto;
+  }
+  .Service {
+    flex-direction: column ;
+  }
+}
